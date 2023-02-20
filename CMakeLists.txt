@@ -10,3 +10,6 @@ FETCHCONTENT_MAKEAVAILABLE(TinySTL)
 
 add_executable(CountTris "count_tris.cpp")
 target_link_libraries(CountTris PRIVATE tiny_stl)
+
+add_executable(Convert "convert.cpp")
+target_link_libraries(Convert PRIVATE tiny_stl)
