@@ -5,7 +5,7 @@ include(FetchContent)
 FETCHCONTENT_DECLARE(
         TinySTL
         GIT_REPOSITORY https://github.com/iyadahmed/tiny_stl.git
-        GIT_TAG a928bb9ff65bfe0cb0e2335c70abd16e8bdce0d7
+        GIT_TAG 50b25081d89e9a8e0998cea9fc27a0cfb040e797
 )
 FETCHCONTENT_MAKEAVAILABLE(TinySTL)
 
